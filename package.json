@@ -1,0 +1,21 @@
+{
+  "name": "@bitmachina/schema-play",
+  "version": "0.1.0",
+  "description": "An experiment with Json Schema",
+  "type": "module",
+  "exports": "./js/index.js",
+  "source": "./js/index.js",
+  "author": "John Hooks <bitmachina@outlook.com> (https://johnhooks.io)",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "npm run build:types",
+    "build:types": "json2ts -i schemas/example-schema.json -o types/example-schema.d.ts"
+  },
+  "dependencies": {
+    "ajv": "^8.12.0"
+  },
+  "devDependencies": {
+    "json-schema-to-typescript": "^13.1.2",
+    "typescript": "^5.3.3"
+  }
+}

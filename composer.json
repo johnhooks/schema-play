@@ -1,0 +1,17 @@
+{
+  "name": "johnhooks/schema-play",
+  "autoload": {
+    "psr-4": {
+      "johnhooks\\SchemaPlay\\": "php/"
+    }
+  },
+  "authors": [
+    {
+      "name": "John Hooks",
+      "email": "bitmachina@outlook.com"
+    }
+  ],
+  "require": {
+    "justinrainbow/json-schema": "^5.2"
+  }
+}
